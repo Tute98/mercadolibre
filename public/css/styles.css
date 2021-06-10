@@ -234,3 +234,36 @@ margin: 0 auto;
     max-width: 150rem;
     width: 95%;
 }
+/*Login*/
+.login{
+    height:25%;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 150rem;
+    width: 95%;
+}
+
+/*width*/
+@media(min-width: 768px) {
+    .menu-mobile {
+        display: none !important;
+    }
+    .header-section2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-section1 {
+        flex-direction: row;
+    }
+    .header-section1 div {
+        flex-grow: 0.5;
+    }
+    }
+
+
+
